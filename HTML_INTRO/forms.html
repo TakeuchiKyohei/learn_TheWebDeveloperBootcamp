@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form demo</title>
+</head>
+<body>
+  <h1>Form Demo</h1>
+  <form action="/tacos">
+    <p>
+      <label for="username">ユーザー名：</label>
+      <input id="username" type="text" placeholder="名前" name="username">
+    </p>
+    <p>
+      <label for="password">パスワード：</label>
+      <input id="password" type="password" name="password">
+    </p>
+    <p>
+      <label for="color">好きな色：</label>
+      <input id="color" type="color" name="color">
+    </p>
+    <p>
+      <label>好きな数字：
+        <input type="number" name="num">
+      </label>
+    </p>
+    <button type="submit">送信</button>
+  </form>
+</body>
+</html>

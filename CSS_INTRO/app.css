@@ -1,3 +1,14 @@
 h2 {
   color: blue;
+  background-color: lightgray;
+}
+
+button {
+  color: yellow;
+  background-color: black;
+}
+
+p {
+  color: greenyellow;
+  background: darkblue;
 }

@@ -54,6 +54,29 @@
       <option value="climp">カチ</option>
     </select>
     <br>
+    <label for="angle">好きな傾斜角度</label>
+    <input type="range" name="angle" id="angle" min="90" max="165" step="5" value="100">
+    <br>
+    <label for="commemt">その他コメント：</label><br>
+    <textarea name="commemt" id="commemt" rows="5" cols="30" placeholder="コメント"></textarea>
+    <br>
+    <button>送信</button>
+  </form>
+
+  <h2>Formバリデーション DEMO</h2>
+  <form action="/demo">
+    <p>
+      <label for="user_name">ユーザー名：</label>
+      <input type="text" name="user_name" id="user_name" required minlength="5" maxlength="10">
+    </p>
+    <p>
+      <label for="email">メール：</label>
+      <input type="email" name="email" id="email" required>
+    </p>
+    <p>
+      <label for="url">URL：</label>
+      <input type="url" name="url" id="url" required>
+    </p>
     <button>送信</button>
   </form>
 </body>

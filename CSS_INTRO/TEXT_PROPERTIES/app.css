@@ -1,0 +1,14 @@
+h1 {
+  text-align: center;
+  font-weight: 400;
+  text-decoration: underline orange wavy;
+  letter-spacing: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 2;
+}

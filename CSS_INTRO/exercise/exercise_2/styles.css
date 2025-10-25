@@ -1,0 +1,22 @@
+/*ここにCSSを書きましょう*/
+/* ロゴ演習問題
+Purple Grainという会社を作ることにしたので、その会社の超かっこいいロゴをCSSで作ってください！
+・h1(見出し要素)を以下のようにスタイルしましょう：
+・英語を全部CSSで大文字にしましょう
+・font-familyはmonospace
+・textは中央揃え
+・font-weightは100
+・テキストの大きさは40px
+・文字間は20pxあける
+・plum色のwavyな波線 
+*/
+
+h1 {
+  text-transform: uppercase;
+  font-family: monospace;
+  text-align: center;
+  font-weight: 100;
+  font-size: 40px;
+  letter-spacing: 20px;
+  text-decoration: underline wavy plum;
+}

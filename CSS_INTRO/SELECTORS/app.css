@@ -3,7 +3,7 @@
 }  */
 
 body {
-  background-color: #fefae0;
+  background-color: #fbf5cd;
 }
 
 button {
@@ -62,4 +62,8 @@ input[type="password"] {
 }
 .post button:active {
   background-color: aqua
+}
+
+.post:nth-of-type(2n) {
+  background-color: #27b83b;
 }

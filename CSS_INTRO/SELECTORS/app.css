@@ -37,3 +37,7 @@ span {
 footer a {
   color: red;
 }
+
+input + button {
+  background-color: hotpink;
+}

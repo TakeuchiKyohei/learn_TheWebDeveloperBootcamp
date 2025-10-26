@@ -1,11 +1,21 @@
-* {
+/* * {
   background-color: cyan;
-} 
+}  */
+
+body {
+  background-color: #fefae0;
+}
 
 button {
   font-size: 30px;
+  background-color: #669bbc;
 }
 
 h1, h2 {
   color: darkslateblue;
+}
+
+#signup {
+  background-color: darkslateblue;
+  color: #fdf0d5
 }

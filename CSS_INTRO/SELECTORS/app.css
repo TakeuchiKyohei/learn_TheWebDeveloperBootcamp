@@ -19,3 +19,13 @@ h1, h2 {
   background-color: darkslateblue;
   color: #fdf0d5
 }
+
+span {
+  color: #669bbc;
+}
+
+.tag {
+  background-color: red;
+  color: white;
+  font-size: 16px;
+}

@@ -3,7 +3,7 @@
 }  */
 
 body {
-  background-color: #fefae0;
+  background-color: #fbf5cd;
 }
 
 button {
@@ -28,4 +28,42 @@ span {
   background-color: red;
   color: white;
   font-size: 16px;
+}
+
+.post a {
+  color: darkslateblue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a {
+  color: red;
+}
+
+input + button {
+  background-color: hotpink;
+}
+
+footer > a {
+  color: darkslateblue;
+}
+
+input[type="password"] {
+  color: green;
+}
+
+.post button:hover {
+  background-color: red;
+  color: white;
+}
+
+.post a:hover {
+  text-decoration: underline;
+}
+.post button:active {
+  background-color: aqua
+}
+
+.post:nth-of-type(2n) {
+  background-color: #27b83b;
 }

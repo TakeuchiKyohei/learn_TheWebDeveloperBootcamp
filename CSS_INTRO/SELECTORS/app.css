@@ -75,3 +75,7 @@ h2::first-letter {
 p::first-line {
   color: purple;
 }
+
+p::selection {
+  background-color: yellow;
+}

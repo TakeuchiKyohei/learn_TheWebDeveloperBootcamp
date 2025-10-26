@@ -60,3 +60,6 @@ input[type="password"] {
 .post a:hover {
   text-decoration: underline;
 }
+.post button:active {
+  background-color: aqua
+}

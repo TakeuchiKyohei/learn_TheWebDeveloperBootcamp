@@ -1,9 +1,29 @@
 div {
   width: 200px;
   height: 300px;
-  background-color: pink;
+  /* background-color: pink; */
 }
 
 h1 {
   background-color: lightpink;
+}
+
+#box1 {
+  background-color: hsl(278, 43%, 35%);
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+  box-sizing: border-box;
+}
+#box2 {
+  background-color: #ffafcc;
+  border-width: 3px;
+  border-color: #bc6c25;
+  border-style: dotted;
+  border-left-width: 5px;
+}
+#box3 {
+  background-color: #a2d2ff;
+  border: hsl(278, 43%, 35%) solid 10px;
+  border-radius: 50%;
 }

@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
 div {
   width: 200px;
   height: 300px;
@@ -8,6 +11,7 @@ h1 {
   background-color: lightpink;
   width: 200px;
   padding-left: 100px;
+  margin: 0;
 }
 
 #box1 {
@@ -16,6 +20,7 @@ h1 {
   border-color: black;
   border-style: solid;
   box-sizing: border-box;
+  margin-left: 100px;
 }
 #box2 {
   background-color: #ffafcc;
@@ -23,6 +28,7 @@ h1 {
   border-color: #bc6c25;
   border-style: dotted;
   border-left-width: 5px;
+  margin: 150px;
 }
 #box3 {
   background-color: #a2d2ff;

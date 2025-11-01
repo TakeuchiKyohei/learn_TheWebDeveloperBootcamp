@@ -5,3 +5,11 @@ span {
   padding: 100px;
   margin: 100px;
 }
+
+div {
+  width: 200px;
+  height: 200px;
+  background-color: lightgray;
+  border: 1px solid black;
+  display: inline-block;
+}

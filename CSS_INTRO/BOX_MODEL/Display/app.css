@@ -13,3 +13,21 @@ div {
   border: 1px solid black;
   display: inline-block;
 }
+
+section {
+  background-color: lightcoral;
+  width: 800px;
+  height: 800px;
+}
+
+div#percent {
+  width: 50%;
+  height: 50%;
+  background-color: rgb(0, 233, 4);
+}
+
+h1 {
+  font-size: 40px;
+  border: 1px solid black;
+  line-height: 200%;
+}

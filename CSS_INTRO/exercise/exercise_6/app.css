@@ -1,0 +1,27 @@
+/* ボックスモデルの演習問題
+ボックスモデルやwidth、height、borderなどについて学びましたので、app.cssを使って以下の画像の状態を再現してください（下に細かい説明があります）：
+以下のスタイルを適用してください：
+
+card用のdiv
+widthは210px
+1pxのgrey色のborder（border-styleはsolid）
+5pxのborder-radius
+テキストは中央揃え（center）
+
+画像
+widthは200px
+5pxの色が rgb(236, 183, 191) のborder（border-styleはsolid）
+50%のborder-radius */
+
+div.card {
+  width: 210px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  text-align: center;
+}
+
+div.card img {
+  width: 200px;
+  border: 5px solid rgb(236, 183, 191);
+  border-radius: 50%;
+}

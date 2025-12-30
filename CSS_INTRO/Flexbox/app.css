@@ -25,3 +25,23 @@ div:nth-of-type(1) {
     flex-grow: 1;
     flex-shrink: 2;
 }
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    border: solid 2px black;
+    height: 500px;
+    display: flex;
+}
+
+main .sidebar {
+    background-color: #f77f00;
+    border: solid 2px black;
+    flex: 1 2 300px;
+}
+
+main .maincontent {
+    background-color: #90e0ef;
+    border: solid 2px black;
+    flex: 2 1 800px;
+}

@@ -1,0 +1,36 @@
+<!-- Bootstrapの演習問題
+index.htmlにHTMLを用意しました。
+Bootstrapはすでに読み込んでます。
+以下の手順通りにBootstrapのクラスを割り当ててください：
+
+sectionをBootstrapのコンテナにする
+h1のテキストは白色（white）で背景色は暗く（dark）し、中央揃えにする
+divはalertにして、色はwarningにする。アクセシビリティも考慮してroleもalertにする。
+1つ目のボタンをBootstrapの成功（success）の色にする
+2つ目のボタンをBootstrapの危険（danger）の色にする 
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Bootstrap演習</title>
+    <!--BOOTSTRAP読み込み-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+<body>
+    <section class="container">
+      <h1 class="text-white bg-dark text-center">お知らせ</h1>
+      
+      <div class="alert alert-warning" role="alert">
+        あきらめないことだ。一度あきらめると習慣になる。 
+      </div>
+      
+      <button type="button" class="btn btn-success">同意</button>
+      <button type="button" class="btn btn-danger">異議あり</button>
+      
+    </section>
+</body>
+</html>
+

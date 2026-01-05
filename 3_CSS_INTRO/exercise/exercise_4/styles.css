@@ -1,0 +1,20 @@
+/* 子孫セレクターの演習問題
+index.htmlに変更を加えずに、以下の状態が実現できるようにcssを完成させてください：
+
+headerの中のアンカー要素：
+・フォントサイズを30px
+・テキストの色をティール（teal）
+
+dislikesのIDを持つ段落要素の中のアンカー要素：
+・太字
+・テキストの色を赤（red） */
+
+header a {
+  font-size: 30px;
+  color: teal;
+}
+
+#dislikes a {
+  font-weight: bold;
+  color: red;
+}

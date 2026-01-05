@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form demo</title>
+</head>
+<body>
+  <h1>Form Demo</h1>
+  <form action="/tacos">
+    <p>
+      <label for="username">ユーザー名：</label>
+      <input id="username" type="text" placeholder="名前" name="username">
+    </p>
+    <p>
+      <label for="password">パスワード：</label>
+      <input id="password" type="password" name="password">
+    </p>
+    <p>
+      <label for="color">好きな色：</label>
+      <input id="color" type="color" name="color">
+    </p>
+    <p>
+      <label>好きな数字：
+        <input type="number" name="num">
+      </label>
+    </p>
+    <button type="submit">送信</button>
+  </form>
+  <hr>
+  <h2>ハイジャック検索</h2>
+
+  <h3>Reddit</h3>
+  <form action="https://www.reddit.com/search">
+    <input type="text" name="q">
+    <button>Reddit検索</button>
+  </form>
+
+  <h2>続・Input</h2>
+  <form action="/climbing">
+    <input type="checkbox" name="agree_tos" id="agree" checked>
+    <label for="agree">利用規約に同意する？</label>
+    <br>
+    <label for="xs">XS:</label>
+    <input type="radio" name="size" id="xs" value="xs">
+    <label for="s">S:</label>
+    <input type="radio" name="size" id="s" value="s">
+    <label for="m">M:</label>
+    <input type="radio" name="size" id="m" value="m">
+    <br>
+    <label for="hold_type">好きなホールディング</label>
+    <select name="hold_type" id="hold_type">
+      <option value="gaba">ガバ</option>
+      <option value="climp">カチ</option>
+    </select>
+    <br>
+    <label for="angle">好きな傾斜角度</label>
+    <input type="range" name="angle" id="angle" min="90" max="165" step="5" value="100">
+    <br>
+    <label for="commemt">その他コメント：</label><br>
+    <textarea name="commemt" id="commemt" rows="5" cols="30" placeholder="コメント"></textarea>
+    <br>
+    <button>送信</button>
+  </form>
+
+  <h2>Formバリデーション DEMO</h2>
+  <form action="/demo">
+    <p>
+      <label for="user_name">ユーザー名：</label>
+      <input type="text" name="user_name" id="user_name" required minlength="5" maxlength="10">
+    </p>
+    <p>
+      <label for="email">メール：</label>
+      <input type="email" name="email" id="email" required>
+    </p>
+    <p>
+      <label for="url">URL：</label>
+      <input type="url" name="url" id="url" required>
+    </p>
+    <button>送信</button>
+  </form>
+</body>
+</html>

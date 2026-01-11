@@ -1,0 +1,20 @@
+/* CSSセレクター演習問題
+index.html には変更を加えずに、以下の状態になるように css を完成させてください：
+
+・li 要素のテキストの色を青（blue）にする
+・doneのクラスをもっている要素のテキストの色を灰色（grey）にする
+・clearのIDをもつ要素には赤（red）の背景色と白（white）のテキストの色にする 
+*/
+
+li {
+  color: blue;
+}
+
+.done {
+  color: grey;
+}
+
+#clear {
+  background-color: red;
+  color: white;
+}

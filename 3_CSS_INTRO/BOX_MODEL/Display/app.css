@@ -1,0 +1,63 @@
+#display_test span {
+  background-color: rgb(0, 243, 243);
+  border: 1px solid black;
+  width: 100px;
+  padding: 100px;
+  margin: 100px;
+}
+
+#display_test div {
+  width: 200px;
+  height: 200px;
+  background-color: lightgray;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+#percent section {
+  background-color: lightcoral;
+  width: 800px;
+  height: 800px;
+}
+
+#percent div {
+  width: 50%;
+  height: 50%;
+  background-color: rgb(0, 233, 4);
+}
+
+#percent h1 {
+  font-size: 40px;
+  border: 1px solid black;
+  line-height: 200%;
+}
+
+#ems article {
+  font-size: 30px;
+}
+
+#ems h2 {
+  font-size: 2em;
+}
+
+#ems h3 {
+  font-size: 1.5em;
+}
+
+#ems p {
+  font-size: 1em;
+}
+
+#ems button {
+  font-size: 1em;
+  padding: 0 1em;
+  border-radius: 0.5em;
+}
+
+#rems article {
+  font-size: 20px;
+}
+
+#rems ul {
+  font-size: 1.5rem;
+}

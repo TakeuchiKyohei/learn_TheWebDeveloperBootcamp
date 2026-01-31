@@ -1,0 +1,23 @@
+<!-- インラインイベントの演習問題
+この演習問題ではインラインのイベントハンドラを書いてもらいます。
+前の講義でも言っていますが、これはアンチパターンです。ただ、実際に使ってみる経験も大事です。
+
+index.htmlに<h1>と<button>要素を置いてます。以下のイベントハンドラを追加してください：
+
+h1がクリックされたときに'boo'とconsole.logで出力してください
+
+buttonがクリックされたとき、'click'とconsole.logで出力してください -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Inline Events</title>
+
+</head>
+
+<body>
+    <h1 onclick="console.log('boo')">インラインイベントはアンチパターンです！</h1>
+    <button onclick="console.log('click')">クリックしてちょうだい</button>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+.winner {
+  color: green;
+}
+
+.loser {
+  color: red;
+}
+
+body {
+  background-color: white;
+}

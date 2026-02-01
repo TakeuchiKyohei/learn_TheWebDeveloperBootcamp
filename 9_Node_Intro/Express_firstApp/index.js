@@ -19,13 +19,18 @@ app.get("/dogs", (req, res) => {
   console.log("/dogsにアクセスがありました。")
   res.send("<h1>dogs path</h1>")
 })
-app.get(/(.*)/, (req, res) => {
-  console.log("*にアクセスがありました。")
-  res.send("<h1>404 Not Found</h1>")
+app.get("/r/:subreddit/:id", (req, res) => {
+  const { subreddit, id } = req.params;
+  console.log("/r/:subreddit/:idにアクセスがありました。")
+  res.send(`<h1>subreddit: ${subreddit}, id: ${id}</h1>`)
 })
 app.post("/cats", (req, res) => {
   console.log("/cats(POST)にアクセスがありました。")
   res.send("<h1>cats(POST) path</h1>")
+})
+app.get(/(.*)/, (req, res) => {
+  console.log("*にアクセスがありました。")
+  res.send("<h1>404 Not Found</h1>")
 })
 
 app.listen(port, () => {

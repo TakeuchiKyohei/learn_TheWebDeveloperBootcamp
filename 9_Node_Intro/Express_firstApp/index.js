@@ -24,6 +24,15 @@ app.get("/r/:subreddit/:id", (req, res) => {
   console.log("/r/:subreddit/:idにアクセスがありました。")
   res.send(`<h1>subreddit: ${subreddit}, id: ${id}</h1>`)
 })
+app.get("/search", (req, res) => {
+  console.log("/searchにアクセスがありました。")
+  const { q } = req.query;
+  if(!q){
+    res.send("I can't find the search query.")
+  } else{
+    res.send(`<h1>search result： ${q} </h1>`)
+  }
+})
 app.post("/cats", (req, res) => {
   console.log("/cats(POST)にアクセスがありました。")
   res.send("<h1>cats(POST) path</h1>")

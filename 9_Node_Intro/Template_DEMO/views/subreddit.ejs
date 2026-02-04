@@ -7,7 +7,17 @@
 </head>
 <body>
   <h1>
-    ようこそ <%= subreddit %> のページへ!
+    ようこそ <%= name %> のページへ!
   </h1>
+  <p> <%= subscribers %>人が購読中</p>
+  <h2> <%= description %> </h2>
+  <% posts.forEach(function(post){ %> 
+    <div>
+      <p> <%= post.title %> 筆者：<b> <%= post.author %></b></p>
+      <% if(post.img){ %>
+        <img src=" <%= post.img %>" alt="">
+      <% } %>
+    </div>
+  <% }) %> 
 </body>
 </html>

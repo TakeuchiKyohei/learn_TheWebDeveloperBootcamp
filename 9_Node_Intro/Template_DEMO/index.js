@@ -2,6 +2,7 @@ const path = require('path');
 const express = require('express');
 const app = express();
 const PORT = 3000;
+const subredditData = require('./data.json');
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
@@ -15,7 +16,12 @@ app.get('/random', (req, res)=>{
 })
 app.get('/r/:subreddit', (req, res)=>{
   const { subreddit } = req.params;
-  res.render("subreddit", { subreddit });
+  const data = subredditData[subreddit];
+  if(data){
+    res.render("subreddit", { subreddit, ...data });
+  }else{
+    res.render("notFound", { subreddit });
+  }
 })
 app.get('/cats', (req, res)=>{
   const cats = ['Blue', 'Rocket', 'Monty', 'Stephanie', 'Winston'];

@@ -17,6 +17,10 @@ app.get('/r/:subreddit', (req, res)=>{
   const { subreddit } = req.params;
   res.render("subreddit", { subreddit });
 })
+app.get('/cats', (req, res)=>{
+  const cats = ['Blue', 'Rocket', 'Monty', 'Stephanie', 'Winston'];
+  res.render("cats", { cats });
+})
 
 app.listen(PORT,()=>{
   console.log('Server is running');
